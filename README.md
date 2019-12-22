@@ -1,2 +1,2 @@
-# dotty-top.g8
-Top level Dotty project with Scala12 integration
+# dotty-top
+Top level integration project for Dotty
