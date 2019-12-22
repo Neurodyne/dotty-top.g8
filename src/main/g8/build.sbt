@@ -2,6 +2,12 @@ val dottyVersion    = "0.22.0-bin-20191220-d45fea0-NIGHTLY"
 val scala212Version = "2.13.1"
 val zioVersion      = "1.0.0-R17"
 
+resolvers ++= Seq(
+  Resolver.mavenLocal,
+  Resolver.sonatypeRepo("releases"),
+  Resolver.sonatypeRepo("snapshots")
+)
+
 lazy val zioDeps = libraryDependencies ++= Seq(
   "dev.zio" %% "zio"          % zioVersion,
   "dev.zio" %% "zio-test"     % zioVersion % "test",
