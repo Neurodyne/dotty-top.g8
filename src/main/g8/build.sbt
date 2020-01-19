@@ -1,4 +1,4 @@
-val dottyVersion    = "0.22.0-bin-20191225-2e3fbfd-NIGHTLY"
+val dottyVersion    = "dotty_0.22:0.22.0-bin-20200118-754a552-NIGHTLY"
 val scala212Version = "2.13.1"
 val zioVersion      = "1.0.0-RC17"
 
